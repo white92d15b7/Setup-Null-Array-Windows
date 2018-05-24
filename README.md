@@ -1,15 +1,16 @@
-NulleX – Null Array Setup Guide Windows
+**NulleX – Null Array Setup Guide Windows**
 
 
 
-What you need
+**What you need**
+
 1. More than 50000 NLX
 2. One Computer with nullex-qt wallet.  (Put your 50000 NLX in this wallet)
 3. One Windows Server VPS with nullex-qt. (This will be your Null Array Wallet)
 4. Some time, patience, and a minimal amount of technical knowledge.
 
 
-Step 1 – Main Wallet
+**Step 1 – Main Wallet**
 
 Setup your controller wallet.  This will keep your coins safe.
 Download and install nullex-qt for Windows.
@@ -20,7 +21,7 @@ Download and install nullex-qt for Windows.
 1.4.  Backup your private keys and wallet.dat file (VERY IMPORTANT)
 1.5.  Load nullex-qt wallet again and sync.
 
-Step 2 – Main Wallet
+**Step 2 – Main Wallet**
 
 2.1.  Click Tools
 2.2.  Open Debug Console
@@ -47,7 +48,8 @@ getaccountaddress NA1
 
 <-getaccountaddress NA1
 ->9Gy2XTXriArE5nQNSccuKfkM8aQzGsfDkq
-Step 3 – Main Wallet
+
+**Step 3 – Main Wallet**
 
 Send 50000 NLX to the Null Array Address & get the outputs
 
@@ -57,7 +59,7 @@ Send 50000 NLX to the Null Array Address & get the outputs
 3.4.   Open Debug Console
 3.5.   Enter the following to get outputs ENTER:
 
-masternode outputs
+nullarray outputs
 
 3.6.   You should see something like this (save this to the TXT file)
 
@@ -70,7 +72,7 @@ masternode outputs
 
 This is your TX_ID, TX_INDEX
 
-Step – 4  Main Wallet
+**Step – 4  Main Wallet**
 
 Edit your NullArray.conf file.
 
@@ -90,18 +92,14 @@ NULL_ARRAY_ALIAS VPS_IP:PORT NA_GENKEY TX_ID TX_INDEX
 4.4.   Paste your new Null Array information into NullArray.Conf on a new line.
 4.5.   Save and close NullArray.conf
 
-
-
-
-
-Step 5 – The Null Array Wallet
+**Step 5 – The Null Array Wallet**
 
 Setup your Windows Server VPS and load up the nullex-qt
 
 (Follow your hosts procedures for this step)
 
 
-Step 6 – The Null Array Wallet
+**Step 6 – The Null Array Wallet**
 
 Edit NulleX.conf on your VPS 
 
@@ -132,9 +130,9 @@ Replace NA_GENKEY with your Null Array Key from step 2.5.
 6.3.   Save and close NulleX.conf
 6.4.   Close and Restart your Null Array Wallet
 
-Step 7 – Main Wallet
+**Step 7 – Main Wallet**
 
-START YOUR NULL ARRAY !!
+**START YOUR NULL ARRAY !!**
 
 7.1.   Restart and unlock the main wallet
 7.2.   Open the Debug Console
@@ -156,5 +154,5 @@ NullArray status
 
 7.6.  Keep your Main wallet and Null Array Wallet running
 
-Step 8 – Enjoy the rewards.  Thank-You for supporting the NulleX Chain.
+**Step 8 – Enjoy the rewards.  Thank-You for supporting the NulleX Chain.**
 
