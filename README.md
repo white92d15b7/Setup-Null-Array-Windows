@@ -79,9 +79,9 @@ Edit your NullArray.conf file.
 4.1.   Find your NullArray.conf file (usually located in c:\Users\username\AppData\Roaming\NulleX
 4.2.   Open NullArray.conf with Notepad you should see something similar to this
 
-# NullArray config file
-# Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:46200 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+NullArray config file
+Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
+Example: mn1 127.0.0.2:46200 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 
 4.3.   Format your Null Array Information
 
