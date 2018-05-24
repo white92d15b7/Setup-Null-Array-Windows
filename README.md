@@ -12,7 +12,7 @@ What you need
 Step 1 – Main Wallet
 
 Setup your controller wallet.  This will keep your coins safe.
-Download and install nullex-qt for windows.
+Download and install nullex-qt for Windows.
 
 1.1.  Load the NulleX wallet and sync
 1.2.  Set a password on your NulleX wallet (the wallet will shut down, you must restart)
@@ -34,7 +34,7 @@ NullArray genkey
 
 2.5.  You should see something similar to this (save this to a TXT file) THIS is your NA_GENKEY
 
-<-masternode genkey
+<-NullArray genkey
 -> 77hdjYHBnsgi63mstdu444EvWEE36hhWggsd33a8sllcXYW56a
 
 2.6.  Enter the following to create a Null Array address ENTER:
